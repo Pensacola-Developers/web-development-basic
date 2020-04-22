@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Our First App</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Lato"
+    />
+    <link rel="stylesheet" type="text/css" href="todo.css" />
+    <script type="text/javascript" src="todo.js"></script>
+  </head>
+  <body>
+    <div class="headRow">
+      <h1>To-do App</h1>
+    </div>
+    <div class="container">
+      <br />
+      <div>
+        <input id="userInput" type="text" placeholder="New item..." />
+        <button id="addBtn" onclick="addNewItem()">Add Item</button>
+      </div>
+      <!-- Empty List -->
+      <div>
+        <div class="listItems">
+          <ul id="ulList"></ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
